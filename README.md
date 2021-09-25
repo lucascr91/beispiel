@@ -5,3 +5,9 @@ Este repositório apresenta um exemplo de implementação técnica de tagueament
   Top Paid Apps            |  Top Free Apps
 :-------------------------:|:-------------------------:
 ![](https://github.com/lucascr91/beispiel/blob/master/images/topPaid.png)  |  ![](https://github.com/lucascr91/beispiel/blob/master/images/topFree.png)
+
+### Configuração Firebase:
+
+Uma descrição completa de como configurar o firebase para Android pode ser encontrada na documentação oficial: https://firebase.google.com/docs/android/setup?authuser=0 . Aqui apenas sumarizo os principais passos:
+
+1. 
