@@ -1,6 +1,6 @@
 ## Beispiel
 
-Este repositório apresenta um exemplo de implementação técnica de tagueamento em Android usando Firebase e GTM. Para o exemplo, foi usado um aplicativo desenvolvido no curso [Android Java Masterclass - Become an App Developer](https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/) de Tim Buchalka. O aplicativo, chamado "Top 10 downloaded", usa o rss feed da loja da Apple para apresentar feeds atualizados com os items mais baixados da loja de acordo com a categoria definida pelo usuário (free apps, paid apps, etc.). Abaixo são apresentados screenshots que dão uma ideia do funcionamento do app:
+Este repositório apresenta um exemplo de implementação técnica de tagueamento em Android usando Firebase. Para o exemplo, foi usado um aplicativo desenvolvido no curso [Android Java Masterclass - Become an App Developer](https://www.udemy.com/course/master-android-7-nougat-java-app-development-step-by-step/) de Tim Buchalka. O aplicativo, chamado "Top 10 downloaded", usa o rss feed da loja da Apple para apresentar feeds atualizados com os items mais baixados da loja de acordo com a categoria definida pelo usuário (free apps, paid apps, etc.). Abaixo são apresentados screenshots que dão uma ideia do funcionamento do app:
 
   Top Paid Apps            |  Top Free Apps
 :-------------------------:|:-------------------------:
@@ -12,7 +12,7 @@ Uma descrição completa de como configurar o firebase para Android pode ser enc
 
 1. Cria um projeto no firebase
 2. Registre o app
-3. Adiciona o arquivo de configuração `google-services.json`[^1]
+3. Adiciona o arquivo de configuração `google-services.json` [^1]
 4. Adiciona a SDK do firebase no app
 
 [^1]:Diferentemente do que diz a documentação atualmente (26/09/2021), o plugin do firebase deve ser instalado usando `id` e não `apply plugin` (veja essa questão no [stackoverflow](https://stackoverflow.com/questions/64538836/can-not-link-connect-android-studio-with-firebase)):
