@@ -12,7 +12,7 @@ Uma descrição completa de como configurar o firebase para Android pode ser enc
 
 1. Cria um projeto no firebase
 2. Registre o app
-3. Adiciona o arquivo de configuração `google-services.json` [^1]
+3. Adiciona o arquivo de configuração `google-services.json`
 4. Adiciona a SDK do firebase no app
 
 **Observação:** Diferentemente do que diz a documentação atualmente (26/09/2021), o plugin do firebase deve ser instalado usando `id` e não `apply plugin` (veja essa questão no [stackoverflow](https://stackoverflow.com/questions/64538836/can-not-link-connect-android-studio-with-firebase)):
