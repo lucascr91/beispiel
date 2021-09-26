@@ -10,7 +10,7 @@ Este repositório apresenta um exemplo de implementação técnica de tagueament
 
 Uma descrição completa de como configurar o firebase para Android pode ser encontrada na documentação oficial: https://firebase.google.com/docs/android/setup?authuser=0 . Aqui apenas sumarizo os principais passos:
 
-1. Cria um projeto no firebase
+1. Crie um projeto no firebase
 2. Registre o app
 3. Adiciona o arquivo de configuração `google-services.json`
 4. Adiciona a SDK do firebase no app
