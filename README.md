@@ -62,3 +62,15 @@ public class MainActivity extends AppCompatActivity {
 Após a alteração no código, é possível checar no console do firebase que os dados estão sendo disparados, como mostra a figura abaixo:
 
 ![](https://github.com/lucascr91/beispiel/blob/master/images/basicEventsFirebase.png)
+
+Alternativamente, é possível analisar os disparos em tempo real na "Debug View". Para apontar os disparos para o Debug View, você precisa primeiro registrar seu dispositivo virtual como um dispositivo de depuração válido. Para fazer isso, abra o terminal dentro do Android Studio com o dispositivo virtual em execução e digite:
+
+```
+adb shell setprop debug.firebase.analytics.app com.example.top10downloaded
+```
+
+(Se não tiver o adb instalado, baixe [aqui](https://developer.android.com/studio/releases/platform-tools) e coloque ele em seu path)
+
+Agora os eventos disparados durante a sessão do usuário aparecem no debug view:
+
+![](https://github.com/lucascr91/beispiel/blob/master/images/basicEventsFirebaseDebugView.png)
