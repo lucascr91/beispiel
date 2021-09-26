@@ -23,10 +23,9 @@ plugins {
     id 'com.google.gms.google-services'  // Google Services plugin
 }
 ```
-
 ### Mandando eventos para o firebase:
 
-Após a configuração, o firebase já recebe por default uma série de eventos, como screen view, user engagement, etc. Vamos adicionar um evento personalizado que dispara quando o usuário dispara o aplicativo. Para isso, vamos criar uma variável do tipo `FirebaseAnalytics` e usar ela dentro do método `OnCreate`. No snippet abaixo, foram adicionadas as linhas X,Y e Z em relação ao código original do app.
+Após a configuração, o firebase já recebe por default uma série de eventos, como screen view, user engagement, etc. Vamos adicionar um evento personalizado que dispara quando o usuário dispara o aplicativo. Para isso, vamos criar uma variável do tipo `FirebaseAnalytics` e usar ela dentro do método `OnCreate`. No snippet abaixo, foram adicionadas as linhas 3, 15-18 em relação ao código original do app.
 
 ```java
 public class MainActivity extends AppCompatActivity {
